@@ -17,9 +17,9 @@ def scan_ports(hostname, start_port, end_port):
     return open_ports
 
 # Test the port scan with a small range (e.g., 20-80)
-host = '202.158.139.57'  # Localhost
-start_port = 21
-end_port = 21  # Testing with fewer ports (from port 20 to port 80)
+host = 'ip adrres'  # Localhost
+start_port = 
+end_port =   # Testing with fewer ports (from port 20 to port 80)
 open_ports = scan_ports(host, start_port, end_port)
 
 # Show the open ports found
